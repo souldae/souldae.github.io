@@ -22,8 +22,8 @@ header, footer {
 .site-title, h1 {
   color: #a8ffe6;
   text-shadow:
-      0 0 6px #a8ffe6,
-      0 0 12px #70ffd4,
-      0 0 24px #70ffd4;
+      0 0 2px #a8ffe6,
+      0 0 6px #70ffd4,
+      0 0 12px #70ffd4;
 }
 
