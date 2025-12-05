@@ -20,13 +20,11 @@ header, footer {
 }
 
 .site-title, h1 {
-  color: #80ffdb;
-  text-shadow: 
-      0 0 8px #80ffdb,
-      0 0 20px #80ffdb,
-      0 0 40px #4fffb0,
-      0 0 80px #4fffb0,
-      0 0 120px #4fffb0;
+  color: #a8ffe6;
+  text-shadow:
+      0 0 6px #a8ffe6,
+      0 0 12px #70ffd4,
+      0 0 24px #70ffd4;
 }
 
 
