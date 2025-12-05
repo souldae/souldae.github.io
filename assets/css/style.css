@@ -18,3 +18,14 @@ header, footer {
   font-size: 0.9rem;
   letter-spacing: 0.5px;
 }
+
+/* neon souldae title */
+.site-title, h1 {
+  color: #80ffdb;
+  text-shadow: 
+      0 0 5px #80ffdb,
+      0 0 10px #80ffdb,
+      0 0 20px #64dfdf,
+      0 0 40px #64dfdf,
+      0 0 80px #64dfdf;
+}
