@@ -1,4 +1,6 @@
-title: digital diary of soul
+title: digital diary
+description:   " music and rhythm find their way into the secret places of the soul " 
+
 # custom styles:
 sass:
   sass_dir: assets/css/style.css
