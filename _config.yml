@@ -1,1 +1,5 @@
 theme: jekyll-theme-hacker
+
+# custom styles:
+sass:
+  sass_dir: assets/css
