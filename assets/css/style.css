@@ -1,1 +1,20 @@
+body {
+  font-family: "JetBrains Mono", monospace;
+  background: #000; /* pure black */
+  color: #d8f3dc; /* soft hacker green */
+}
 
+a {
+  color: #80ffdb;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #64dfdf;
+}
+
+header, footer {
+  opacity: 0.7;
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
