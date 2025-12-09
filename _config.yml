@@ -1,3 +1,5 @@
+theme: null
+
 # custom styles:
 sass:
   sass_dir: assets/css/style.css
