@@ -1,5 +1,5 @@
 ---
-layout: feed
+layout: default
 title: Gallery
 collection: gallery
 ---
