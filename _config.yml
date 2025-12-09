@@ -15,3 +15,11 @@ collections:
     output: true
   fieldnotes:
     output: true
+
+nav:
+  - title: Gallery
+    url: /gallery
+  - title: Fragments
+    url: /fragments
+  - title: Field Notes
+    url: /fieldnotes
