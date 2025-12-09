@@ -1,1 +1,51 @@
+---
+---
+<div class="feed">
+  {% for post in site[page.collection] %}
+    <div class="entry">
+      {% if post.image %}
+        <img src="{{ post.image }}" class="entry-image">
+      {% endif %}
 
+      <div class="entry-content">
+        {{ post.content }}
+      </div>
+
+      <div class="entry-date">
+        {{ post.date | date: "%Y-%m-%d" }}
+      </div>
+    </div>
+  {% endfor %}
+</div>
+
+<style>
+.feed {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  padding-bottom: 60px;
+}
+
+.entry {
+  background: #0d0d0d;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #39ff14;
+}
+
+.entry-image {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.entry-content {
+  font-size: 1.1em;
+}
+
+.entry-date {
+  margin-top: 10px;
+  font-size: 0.8em;
+  opacity: 0.6;
+}
+</style>
