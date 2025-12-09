@@ -7,3 +7,11 @@ sass:
 
 include:
   - assets
+
+collections:
+  gallery:
+    output: true
+  fragments:
+    output: true
+  fieldnotes:
+    output: true
