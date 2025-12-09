@@ -1,11 +1,17 @@
 theme: null
 
+markdown: kramdown
 # custom styles:
 sass:
   sass_dir: assets/css/style.css
-
+  
 include:
   - assets
+  - _gallery
+  - _fragments
+  - _fieldnotes
+  - _layouts
+  - _includes
 
 collections:
   gallery:
