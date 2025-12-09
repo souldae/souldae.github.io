@@ -1,5 +1,5 @@
 ---
-layout: feed
+layout: default
 title: Field Notes
 collection: fieldnotes
 ---
