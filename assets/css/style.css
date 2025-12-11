@@ -1,29 +1,21 @@
-body {
-  font-family: "JetBrains Mono", monospace;
-  background: #000; /* pure black */
-  color: #d8f3dc; /* soft hacker green */
+/* neon glow title */
+h1.site-title, .site-title, header h1 {
+    color: #3affef; /* neon cyan */
+    text-shadow: 0 0 8px #3affef, 0 0 16px #27d3c8, 0 0 32px #0fa;
 }
 
+/* glowing links */
 a {
-  color: #80ffdb;
-  text-decoration: none;
+    color: #5efaff;
+    text-shadow: 0 0 6px #00eaff;
 }
 
+/* subtle glow on hover */
 a:hover {
-  color: #64dfdf;
+    text-shadow: 0 0 12px #00f6ff;
 }
 
-header, footer {
-  opacity: 0.7;
-  font-size: 0.9rem;
-  letter-spacing: 0.5px;
+/* general neon vibe */
+body {
+    background: #000;
 }
-
-.site-title, h1 {
-  color: #a8ffe6;
-  text-shadow:
-      0 0 2px #a8ffe6,
-      0 0 6px #70ffd4,
-      0 0 12px #70ffd4;
-}
-
