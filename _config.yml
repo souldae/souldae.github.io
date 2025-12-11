@@ -2,8 +2,8 @@ theme: jekyll-theme-midnight
 markdown: kramdown
 # custom styles:
 sass:
-  sass_dir: assets/css/style.css
-
+  sass_dir: assets/css
+  
 collections:
   gallery:
     output: true
