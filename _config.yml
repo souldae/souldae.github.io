@@ -1,5 +1,4 @@
-theme: null
-
+theme: jekyll-theme-midnight
 markdown: kramdown
 # custom styles:
 sass:
